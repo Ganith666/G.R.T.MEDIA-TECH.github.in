@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRT Media & Tech | Creative Design & Technical Hardware Solutions</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        rosegold: {
+                            DEFAULT: '#E0A96D',
+                            light: '#F4C493',
+                            dark: '#C88E53',
+                        },
+                        slatebg: '#0F172A',
+                        cardbg: '#1E293B'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slatebg text-slate-200 font-sans antialiased selection:bg-rosegold selection:text-slatebg">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-slatebg/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center gap-3 group">
+                <!-- Integrated G.R.T.png Logo -->
+                <img src="G.R.T.png" alt="GRT Logo" class="w-10 h-10 object-contain rounded-lg border border-rosegold/40 group-hover:border-rosegold transition-all">
+                <span class="font-bold text-xl tracking-wider text-white">GRT <span class="text-rosegold text-sm font-semibold tracking-normal">MEDIA & TECH</span></span>
+            </a>
+            <div class="hidden md:flex items-center gap-8 font-medium text-sm text-slate-300">
+                <a href="#services" class="hover:text-rosegold transition-colors">Services</a>
+                <a href="#calculator" class="hover:text-rosegold transition-colors">Pricing Calculator</a>
+                <a href="#portfolio" class="hover:text-rosegold transition-colors">Portfolio</a>
+                <a href="#contact" class="px-5 py-2.5 rounded-lg border border-rosegold text-rosegold hover:bg-rosegold hover:text-slatebg font-semibold transition-all">Get in Touch</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen pt-32 pb-20 flex items-center justify-center relative overflow-hidden">
+        <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-rosegold/10 rounded-full blur-[120px] pointer-events-none"></div>
+
+        <div class="max-w-5xl mx-auto px-6 text-center z-10">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-rosegold/30 bg-rosegold/5 text-rosegold text-xs font-semibold tracking-wider uppercase mb-8">
+                <i class="fa-solid fa-bolt"></i> Bridging Media Creativity & Tech Engineering
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+                High-Impact Visual Media & <span class="text-rosegold">Precision Tech Solutions</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+                From professional video editing and visual identity design to custom IoT systems and hardware prototyping—GRT delivers complete end-to-end solutions.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#calculator" class="px-8 py-4 rounded-xl bg-rosegold text-slatebg font-bold hover:bg-rosegold-light transition-all shadow-lg shadow-rosegold/20">
+                    Calculate Project Cost
+                </a>
+                <a href="#portfolio" class="px-8 py-4 rounded-xl border border-slate-700 bg-cardbg/50 text-white font-semibold hover:border-slate-500 transition-all">
+                    View Portfolio
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-slate-900/50 relative border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Core Capabilities</h2>
+                <p class="text-slate-400 max-w-xl mx-auto">Combining creative visual engineering with functional hardware development.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Media & Design Card -->
+                <div class="bg-cardbg rounded-2xl p-8 border border-slate-800 transition-all hover:border-rosegold/50">
+                    <div class="w-14 h-14 rounded-xl bg-rosegold/10 border border-rosegold/30 flex items-center justify-center text-rosegold text-2xl mb-6">
+                        <i class="fa-solid fa-film"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Media & Design</h3>
+                    <p class="text-slate-400 mb-6 leading-relaxed">
+                        Crafting compelling visual narratives and sleek brand identities tailored for growth and conversion.
+                    </p>
+                    <ul class="space-y-3 text-slate-300">
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-rosegold text-sm"></i> Modular Video Editing (Cuts, Motion FX, Audio, Grading)</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-rosegold text-sm"></i> Graphic Design Suite (Thumbnails, Logos, Photo Edits)</li>
+                    </ul>
+                </div>
+
+                <!-- Hardware & Tech Card -->
+                <div class="bg-cardbg rounded-2xl p-8 border border-slate-800 transition-all hover:border-rosegold/50">
+                    <div class="w-14 h-14 rounded-xl bg-rosegold/10 border border-rosegold/30 flex items-center justify-center text-rosegold text-2xl mb-6">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Tech & Hardware</h3>
+                    <p class="text-slate-400 mb-6 leading-relaxed">
+                        Building intelligent hardware prototypes and embedded systems to solve real-world automation challenges.
+                    </p>
+                    <ul class="space-y-3 text-slate-300">
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-rosegold text-sm"></i> Embedded Hardware (Arduino, Circuits, Code)</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-rosegold text-sm"></i> IoT & CAD Prototyping (Sensors, 3D Models, Assembly)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Pricing Calculator Section -->
+    <section id="calculator" class="py-20 border-t border-slate-800 bg-slatebg relative">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <span class="text-rosegold font-semibold text-sm uppercase tracking-wider">Instant Scope & Cost Calculator</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-white mt-2 mb-4">Project Pricing Calculator</h2>
+                <p class="text-slate-400 max-w-xl mx-auto">Select specific sub-categories under each main service area to tailor your project budget.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8 items-start">
+                <!-- Deliverables Selection Area -->
+                <div class="lg:col-span-2 bg-cardbg rounded-2xl p-6 md:p-8 border border-slate-800 space-y-8">
+                    
+                    <!-- MEDIA CATEGORIES -->
+                    <div>
+                        <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                            <i class="fa-solid fa-palette text-rosegold"></i> Media & Creative Deliverables
+                        </h3>
+                        <div class="space-y-4">
+
+                            <!-- CATEGORY 1: VIDEO EDITING -->
+                            <div class="rounded-xl border border-rosegold/30 bg-slatebg/70 p-4 space-y-3">
+                                <p class="text-sm font-bold text-white flex items-center gap-2">
+                                    <i class="fa-solid fa-video text-rosegold"></i> Video Editing Sub-Categories:
+                                </p>
+                                <div class="grid gap-2">
+                                    <label class="flex items-center justify-between p-2.5 rounded-lg border border-slate-700 bg-cardbg hover:border-rosegold/50 cursor-pointer">
+                                        <div class="flex items-center gap-2.5">
+                                            <input type="checkbox" class="calc-item w-4 h-4 accent-rosegold rounded cursor-pointer" data-price="60" value="Video: Basic Cuts & Pacing">
+                                            <span class="text-xs font-semibold text-slate-200">Basic Cuts, Trimming & Assembly</span>
+                                        </div>
+                                        <span class="text-xs font-bold text-rosegold">+$60</span>
+                                    </label>
+                                    <label class="flex items-center justify-between p-2.5 rounded-lg border border-slate-700 bg-cardbg hover:border-rosegold/50 cursor-pointer">
+                                        <div class="flex items-center gap-2.5">
+                                            <input type="checkbox" class="calc-item w-4 h-4 accent-rosegold rounded cursor-pointer" data-price="40" value="Video: Color Grading">
+                                            <span class="text-xs font-semibold text-slate-200">Cinematic Color Grading & Match</span>
+                                        </div>
+                                        <span class="text-xs font-bold text-rosegold">+$40</span>
+                                    </label>
+                                    <label class="flex items-center justify-between p-2.5 rounded-lg border border-slate-700 bg-cardbg hover:border-rosegold/50 cursor-pointer">
+                                        <div class="flex items-center gap-2.5">
+                                            <input type="checkbox" class="calc-item w-4 h-4 accent-rosegold rounded cursor-pointer" data-price="70" value="Video: Motion FX & Titles">
+                                            <span class="text-xs font-semibold text-slate-200">Motion Graphics, Lower Thirds & Text FX</span>
+                                        </div>
+                                        <span class="text-xs font-bold text-rosegold">+$70</span>
+                                    </label>
+                                    <label class="flex items-center justify-between p-2.5 rounded-lg border border-slate-700 bg-cardbg hover:border-rosegold/50 cursor-pointer">
+                                        <div class="flex items-center gap-2.5">
+                                            <input type="checkbox" class="calc-item w-4 h-4 accent-rosegold rounded cursor-pointer" data-price="30" value="Video: Sound Design">
+                                            <span class="text-xs font-semibold text-slate-200">Sound Design & Background Audio Balance</span>
+                                        </div>
+                                        <span class="text-xs font-bold text-rosegold">+$30</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- CATEGORY 2: GRAPHICS & BRANDING -->
+                            <div class="rounded-xl border border-rosegold/30 bg-slatebg/70 p-4 space-y-3">
+                                <p class="text-sm font-bold text-white flex items-center gap-2">
+                                    <i class="fa-solid fa-paintbrush text-rosegold"></i> Graphics & Branding Sub-Categories:
+                                </p>
+                                <div class="grid gap-2">
+                                    <label class="flex items-center justify-between p-2.5 rounded-lg border border-slate-700 bg-cardbg hover:border-rosegold/50 cursor-pointer">
+                                        <div class="flex items-center gap-2.5">
+                                            <input type="checkbox" class="calc-item w-4 h-4 accent-rosegold rounded cursor-pointer" data-price="20" value="Graphics: Single Thumbnail">
+                                            <span class="text-xs font-semibold text-slate-200">Single High-CTR YouTube Thumbnail</span>
+                                        </div>
+                                        <span class="text-xs font-bold text-rosegold">+$20</span>
+                                    </label>
+                                    <label class="flex items-center justify-between p-2.5 rounded-lg border border-slate-700 bg-cardbg hover:border-rosegold/50 cursor-pointer">
+                                        <div class="flex items-center gap-2.5">
+                                            <input type="checkbox" class="calc-item w-4 h-4 accent-rosegold rounded cursor-pointer" data-price="45" value="Graphics: Thumbnail Pack (3x)">
+                                            <span class="text-xs font-semibold text-slate-200">Thumbnail Pack (3 Custom Designs)</span>
+                                        </div>
+                                        <span class="text-xs font-bold text-rosegold">+$45</span>
+                                    </label>
+                                    <label class="flex items-center justify-between p-2.5 rounded-lg border border-slate-700 bg-cardbg hover:border-rosegold/50 cursor-pointer">
+                                        <div class="flex items-center gap-2.5">
+                                            <input type="checkbox" class="calc-item w-4 h-4 accent-rosegold rounded cursor-pointer" data-price="100" value="Graphics: Vector Logo Design">
+                                            <span class="text-xs font-semibold text-slate-200">Primary Vector Logo Design</span>
+                                        </div>
+                                        <span class="text-xs font-bold text-rosegold">+$100</span>
+                                    </label>
+                                    <label class="flex items-center justify-between p-2.5 rounded-lg border border-slate-700 bg-cardbg hover:border-rosegold/50 cursor-pointer">
+                                        <div class="flex items-center gap-2.5">
+                                            <input type="checkbox" class="calc-item w-4 h-4 accent-rosegold rounded cursor-pointer" data-price="60" value="Graphics: Full Brand Kit">
+                                            <span class="text-xs font-semibold text-slate-200">Brand Identity Kit (Fonts, Color Palette, Banners)</span>
+                                        </div>
+                                        <span class="text-xs font-bold text-rosegold">+$60</span>
+                                    </label>
+                                    <label class="flex items-center justify-between p-2.5 rounded-lg border border-slate-700 bg-cardbg hover:border-rosegold/50 cursor-pointer">
+                                        <div class="flex items-center gap-2.5">
+                                            <input type="checkbox" class="calc-item w-4 h-4 accent-rosegold rounded cursor-pointer" data-price="35" value="Graphics: Photo Retouching">
+                                            <span class="text-xs font-semibold text-slate-200">Photo Touch-up / Retouching Suite</span>
+                                        </div>
+                                        <span class="text-xs font-bold text-rosegold">+$35</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- TECH CATEGORIES -->
+                    <div>
+                        <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                            <i class="fa-solid fa-microchip text-rosegold"></i> Hardware & Tech Deliverables
+                        </h3>
+                        <div class="space-y-4">
+
+                            <!-- CATEGORY 3: EMBEDDED & MICROCONTROLLERS -->
+                            <div class="rounded-xl border border-rosegold/30 bg-slatebg/70 p-4 space-y-3">
+                                <p class="text-sm font-bold text-white flex items-center gap-2">
+                                    <i class="fa-solid fa-plug text-rosegold"></i> Microcontroller Sub-Categories:
+                                </p>
+                                <div class="grid gap-2">
+                                    <label class="flex items-center justify-between p-2.5 rounded-lg border border-slate-700 bg-cardbg hover:border-rosegold/50 cursor-pointer">
+                                        <div class="flex items-center gap-2.5">
+                                            <input type="checkbox" class="calc-item w-4 h-4 accent-rosegold rounded cursor-pointer" data-price="90" value="Tech: Circuit Design & Schematic">
+                                            <span class="text-xs font-semibold text-slate-200">Circuit Wiring & Schematic Design</span>
+                                        </div>
+                                        <span class="text-xs font-bold text-rosegold">+$90</span>
+                                    </label>
+                                    <label class="flex items-center justify-between p-2.5 rounded-lg border border-slate-700 bg-cardbg hover:border-rosegold/50 cursor-pointer">
+                                        <div class="flex items-center gap-2.5">
+                                            <input type="checkbox" class="calc-item w-4 h-4 accent-rosegold rounded cursor-pointer" data-price="110" value="Tech: Arduino C++ Code">
+                                            <span class="text-xs font-semibold text-slate-200">Arduino / ESP32 Custom Code Programming</span>
+                                        </div>
+                                        <span class="text-xs font-bold text-rosegold">+$110</span>
+                                    </label>
+                                    <label class="flex items-center justify-between p-2.5 rounded-lg border border-slate-700 bg-cardbg hover:border-rosegold/50 cursor-pointer">
+                                        <div class="flex items-center gap-2.5">
+                                            <input type="checkbox" class="calc-item w-4 h-4 accent-rosegold rounded cursor-pointer" data-price="80" value="Tech: Physical Hardware Assembly">
+                                            <span class="text-xs font-semibold text-slate-200">Hardware Soldering & Bench Testing</span>
+                                        </div>
+                                        <span class="text-xs font-bold text-rosegold">+$80</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- CATEGORY 4: IOT, CAD & PROTOTYPING -->
+                            <div class="rounded-xl border border-rosegold/30 bg-slatebg/70 p-4 space-y-3">
+                                <p class="text-sm font-bold text-white flex items-center gap-2">
+                                    <i class="fa-solid fa-cube text-rosegold"></i> IoT & CAD Sub-Categories:
+                                </p>
+                                <div class="grid gap-2">
+                                    <label class="flex items-center justify-between p-2.5 rounded-lg border border-slate-700 bg-cardbg hover:border-rosegold/50 cursor-pointer">
+                                        <div class="flex items-center gap-2.5">
+                                            <input type="checkbox" class="calc-item w-4 h-4 accent-rosegold rounded cursor-pointer" data-price="100" value="Tech: IoT Ultrasonic/Sensors">
+                                            <span class="text-xs font-semibold text-slate-200">IoT Sensor Integration (Ultrasonic/Temp/Motion)</span>
+                                        </div>
+                                        <span class="text-xs font-bold text-rosegold">+$100</span>
+                                    </label>
+                                    <label class="flex items-center justify-between p-2.5 rounded-lg border border-slate-700 bg-cardbg hover:border-rosegold/50 cursor-pointer">
+                                        <div class="flex items-center gap-2.5">
+                                            <input type="checkbox" class="calc-item w-4 h-4 accent-rosegold rounded cursor-pointer" data-price="70" value="Tech: 3D CAD Enclosure Model">
+                                            <span class="text-xs font-semibold text-slate-200">Custom 3D CAD Enclosure Design</span>
+                                        </div>
+                                        <span class="text-xs font-bold text-rosegold">+$70</span>
+                                    </label>
+                                    <label class="flex items-center justify-between p-2.5 rounded-lg border border-slate-700 bg-cardbg hover:border-rosegold/50 cursor-pointer">
+                                        <div class="flex items-center gap-2.5">
+                                            <input type="checkbox" class="calc-item w-4 h-4 accent-rosegold rounded cursor-pointer" data-price="50" value="Tech: 3D Printing Prototype">
+                                            <span class="text-xs font-semibold text-slate-200">3D Print Production & Prototype Assembly</span>
+                                        </div>
+                                        <span class="text-xs font-bold text-rosegold">+$50</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- CUSTOM REQUIREMENT SECTION -->
+                    <div class="p-5 rounded-xl border border-rosegold/30 bg-rosegold/5 space-y-4">
+                        <div class="flex items-center justify-between">
+                            <h3 class="text-sm font-bold text-rosegold flex items-center gap-2">
+                                <i class="fa-solid fa-sliders"></i> Custom Service / Budget Requirement
+                            </h3>
+                            <label class="flex items-center gap-2 cursor-pointer text-xs font-semibold text-slate-300">
+                                <input type="checkbox" id="custom-toggle" class="w-4 h-4 accent-rosegold rounded cursor-pointer"> Include Custom Add-on
+                            </label>
+                        </div>
+                        <div class="grid sm:grid-cols-3 gap-3">
+                            <div class="sm:col-span-2">
+                                <input type="text" id="custom-title" placeholder="e.g. 2D Animation / Custom PCB" class="w-full px-3.5 py-2.5 rounded-lg bg-slatebg border border-slate-700 text-xs text-white focus:outline-none focus:border-rosegold" value="Custom Requirement">
+                            </div>
+                            <div>
+                                <div class="relative">
+                                    <span class="absolute left-3 top-2.5 text-xs text-slate-400">$</span>
+                                    <input type="number" id="custom-price" placeholder="Target Budget" class="w-full pl-7 pr-3 py-2.5 rounded-lg bg-slatebg border border-slate-700 text-xs text-white focus:outline-none focus:border-rosegold" value="100" min="0">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Turnaround Speed Selector -->
+                    <div>
+                        <h3 class="text-sm font-bold text-slate-300 mb-3">Project Timeline Multiplier</h3>
+                        <div class="grid grid-cols-3 gap-3">
+                            <button type="button" class="speed-btn py-2.5 px-4 rounded-lg border border-rosegold bg-rosegold/10 text-rosegold font-medium text-xs text-center transition-all" data-multiplier="1">
+                                Standard (Normal)
+                            </button>
+                            <button type="button" class="speed-btn py-2.5 px-4 rounded-lg border border-slate-700 bg-slatebg/50 text-slate-300 font-medium text-xs text-center hover:border-slate-500 transition-all" data-multiplier="1.25">
+                                Priority (+25%)
+                            </button>
+                            <button type="button" class="speed-btn py-2.5 px-4 rounded-lg border border-slate-700 bg-slatebg/50 text-slate-300 font-medium text-xs text-center hover:border-slate-500 transition-all" data-multiplier="1.5">
+                                Rush (+50%)
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Live Summary Side Panel -->
+                <div class="bg-cardbg rounded-2xl p-6 md:p-8 border border-rosegold/40 sticky top-28 shadow-xl">
+                    <h3 class="text-xl font-bold text-white mb-4 border-b border-slate-700 pb-3">Quote Summary</h3>
+                    
+                    <div class="min-h-[120px] mb-6">
+                        <p class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Selected Sub-Services:</p>
+                        <ul id="selected-list" class="space-y-2 text-xs text-slate-300">
+                            <li class="text-slate-500 italic">No services selected yet.</li>
+                        </ul>
+                    </div>
+
+                    <div class="border-t border-slate-700 pt-4 mb-6">
+                        <div class="flex justify-between items-end">
+                            <div>
+                                <p class="text-xs text-slate-400 uppercase tracking-wider">Estimated Total</p>
+                                <p class="text-xs text-slate-500">(Subject to final scope)</p>
+                            </div>
+                            <div class="text-right">
+                                <span id="total-price" class="text-3xl font-extrabold text-rosegold">$0</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#contact" id="book-quote-btn" class="block w-full py-3.5 rounded-xl bg-rosegold text-slatebg text-center font-bold hover:bg-rosegold-light transition-all shadow-md shadow-rosegold/20">
+                        Book This Estimate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section id="portfolio" class="py-20 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Featured Work</h2>
+                    <p class="text-slate-400">A glimpse into recent design projects and tech builds.</p>
+                </div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="group bg-cardbg rounded-xl border border-slate-800 overflow-hidden hover:border-rosegold/50 transition-all">
+                    <div class="h-48 bg-slate-800 flex items-center justify-center text-slate-600 group-hover:text-rosegold transition-colors">
+                        <i class="fa-solid fa-photo-film text-4xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-semibold text-rosegold tracking-wider uppercase">Media Design</span>
+                        <h4 class="text-lg font-bold text-white mt-1">Brand Identity Systems</h4>
+                        <p class="text-slate-400 text-sm mt-2">Geometric branding, logo assets, and social media media packs.</p>
+                    </div>
+                </div>
+
+                <div class="group bg-cardbg rounded-xl border border-slate-800 overflow-hidden hover:border-rosegold/50 transition-all">
+                    <div class="h-48 bg-slate-800 flex items-center justify-center text-slate-600 group-hover:text-rosegold transition-colors">
+                        <i class="fa-solid fa-microchip text-4xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-semibold text-rosegold tracking-wider uppercase">Tech Hardware</span>
+                        <h4 class="text-lg font-bold text-white mt-1">Digital Sensor Meter</h4>
+                        <p class="text-slate-400 text-sm mt-2">Custom ultrasonic measuring device built on microcontroller architecture.</p>
+                    </div>
+                </div>
+
+                <div class="group bg-cardbg rounded-xl border border-slate-800 overflow-hidden hover:border-rosegold/50 transition-all">
+                    <div class="h-48 bg-slate-800 flex items-center justify-center text-slate-600 group-hover:text-rosegold transition-colors">
+                        <i class="fa-solid fa-video text-4xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-semibold text-rosegold tracking-wider uppercase">Video Production</span>
+                        <h4 class="text-lg font-bold text-white mt-1">Promotional Content Cuts</h4>
+                        <p class="text-slate-400 text-sm mt-2">High-pacing commercial edits with sound design and color grading.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-slate-900/50 border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="bg-cardbg rounded-2xl p-8 md:p-12 border border-slate-800">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold text-white mb-3">Let's Work Together</h2>
+                    <p class="text-slate-400">Have a project in mind for media design or custom hardware? Send a message below.</p>
+                </div>
+                <form id="contact-form" class="space-y-6" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                    <input type="hidden" name="subject" value="New GRT Media & Tech Inquiry / Quote">
+
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-slate-300 mb-2">Name</label>
+                            <input type="text" name="name" class="w-full px-4 py-3 rounded-lg bg-slatebg border border-slate-700 text-white focus:outline-none focus:border-rosegold" placeholder="Your name" required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-300 mb-2">Email</label>
+                            <input type="email" name="email" class="w-full px-4 py-3 rounded-lg bg-slatebg border border-slate-700 text-white focus:outline-none focus:border-rosegold" placeholder="your@email.com" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-300 mb-2">Project Scope & Notes</label>
+                        <textarea id="contact-details" name="message" rows="4" class="w-full px-4 py-3 rounded-lg bg-slatebg border border-slate-700 text-white focus:outline-none focus:border-rosegold" placeholder="Select options from the calculator above or tell us about your custom requirements..." required></textarea>
+                    </div>
+                    <button type="submit" class="w-full py-4 rounded-xl bg-rosegold text-slatebg font-bold hover:bg-rosegold-light transition-all">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-slate-800 text-center text-slate-500 text-sm">
+        <p>&copy; GRT Media & Tech. All rights reserved.</p>
+    </footer>
+
+    <!-- Interactive Pricing Calculator Logic -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const checkboxes = document.querySelectorAll('.calc-item');
+            const speedBtns = document.querySelectorAll('.speed-btn');
+            const selectedList = document.getElementById('selected-list');
+            const totalPriceEl = document.getElementById('total-price');
+            const contactDetails = document.getElementById('contact-details');
+            const bookBtn = document.getElementById('book-quote-btn');
+
+            // Custom Requirement Elements
+            const customToggle = document.getElementById('custom-toggle');
+            const customTitle = document.getElementById('custom-title');
+            const customPrice = document.getElementById('custom-price');
+
+            let activeMultiplier = 1;
+
+            function calculateQuote() {
+                let baseTotal = 0;
+                let selectedItems = [];
+
+                // Standard Sub-Category Checkboxes
+                checkboxes.forEach(cb => {
+                    if (cb.checked) {
+                        const itemPrice = parseFloat(cb.dataset.price);
+                        baseTotal += itemPrice;
+                        selectedItems.push({ name: cb.value, price: itemPrice });
+                    }
+                });
+
+                // Custom Requirement Checkbox
+                if (customToggle.checked) {
+                    const cTitle = customTitle.value.trim() || 'Custom Requirement';
+                    const cPrice = parseFloat(customPrice.value) || 0;
+                    baseTotal += cPrice;
+                    selectedItems.push({ name: `[Custom] ${cTitle}`, price: cPrice });
+                }
+
+                const finalTotal = Math.round(baseTotal * activeMultiplier);
+
+                if (selectedItems.length === 0) {
+                    selectedList.innerHTML = '<li class="text-slate-500 italic">No services selected yet.</li>';
+                } else {
+                    selectedList.innerHTML = selectedItems.map(item => `
+                        <li class="flex justify-between items-center">
+                            <span><i class="fa-solid fa-angle-right text-rosegold mr-1.5"></i>${item.name}</span>
+                            <span class="font-bold text-slate-200">$${item.price}</span>
+                        </li>
+                    `).join('');
+                }
+
+                totalPriceEl.textContent = `$${finalTotal}`;
+
+                if (selectedItems.length > 0) {
+                    const itemNames = selectedItems.map(i => i.name).join(', ');
+                    contactDetails.value = `Estimated Quote Request ($${finalTotal}):\nSelected Sub-Services: ${itemNames}\nTimeline Multiplier: ${activeMultiplier}x`;
+                }
+            }
+
+            // Listeners
+            checkboxes.forEach(cb => cb.addEventListener('change', calculateQuote));
+            customToggle.addEventListener('change', calculateQuote);
+            customTitle.addEventListener('input', calculateQuote);
+            customPrice.addEventListener('input', calculateQuote);
+
+            speedBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    speedBtns.forEach(b => {
+                        b.classList.remove('border-rosegold', 'bg-rosegold/10', 'text-rosegold');
+                        b.classList.add('border-slate-700', 'bg-slatebg/50', 'text-slate-300');
+                    });
+                    btn.classList.remove('border-slate-700', 'bg-slatebg/50', 'text-slate-300');
+                    btn.classList.add('border-rosegold', 'bg-rosegold/10', 'text-rosegold');
+
+                    activeMultiplier = parseFloat(btn.dataset.multiplier);
+                    calculateQuote();
+                });
+            });
+
+            bookBtn.addEventListener('click', () => {
+                contactDetails.focus();
+            });
+        });
+    </script>
+</body>
+</html>
